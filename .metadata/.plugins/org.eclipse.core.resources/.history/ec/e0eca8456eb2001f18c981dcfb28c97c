@@ -23,16 +23,6 @@ public class Main {
 					numeros[i] = scan.nextInt();
 				}
 				
-				System.out.println("\nNÚMEROS NEGATIVOS");
-				
-				for(int i = 0; i < n; i++) {
-					
-					if(numeros[i] < 0) {
-						System.out.println(numeros[i]);						
-					}
-					
-				}
-				
 				break;
 			} else {
 				System.out.println("\nQuantidade inválida! Digite novamente!");

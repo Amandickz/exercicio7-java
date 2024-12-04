@@ -23,9 +23,9 @@ public class Main {
 					numeros[i] = scan.nextInt();
 				}
 				
-				System.out.println("\nNÚMEROS NEGATIVOS");
-				
 				for(int i = 0; i < n; i++) {
+					
+					System.out.println("\nNÚMEROS NEGATIVOS");
 					
 					if(numeros[i] < 0) {
 						System.out.println(numeros[i]);						
