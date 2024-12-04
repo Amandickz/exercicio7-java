@@ -15,14 +15,12 @@ public class Main {
 			n = scan.nextInt();
 			
 			if(n > 0 && n <= 10) {
-				break;
+				
 			} else {
 				System.out.println("\nQuantidade inválida! Digite novamente!");
 			}
 			
 		}while(true);
-		
-		System.exit(0);
 		
 	}
 
